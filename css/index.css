@@ -1,0 +1,144 @@
+p, h1, h4 {
+	font-family: 'Press Start 2P', cursive; 
+}
+
+#cursor{
+	color:'blue';
+}
+
+section{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/* GRID */
+
+.grid{
+	display: grid;
+	grid-template-columns: 5% 20% 20% 20% 20% 5%;
+	grid-template-rows: 1fr 5fr 5fr;
+	grid-gap: 2%;
+}
+
+/* HEADER */
+.header{
+	grid-column: 2 / span 4;
+	grid-row: 1 / span 1;
+}
+
+.header-grid{
+	
+	display: grid;
+	grid-template-columns: 50% 30% 20%;
+	align-items: center;
+}
+
+.header-logo{
+	width: 100%;
+	grid-column: 1 / span 1;
+}
+
+.icons{
+	grid-column: 3 / span 1;
+	justify-self: end;
+	text-align: right;
+}
+
+.icons img{
+	width: 15%;
+	margin-left: 5%;
+}
+
+
+
+/* BIO */
+
+.bio{
+	grid-row: 2 / span 1;
+	grid-column: 2 / span 4;
+	background-color: #6FB5BF;
+	color: white;
+	
+}
+
+.bio-grid{
+	display: grid;
+	grid-template-columns: 8% 23% 23% 29% 23% 4%;;
+	align-items: center;
+	justify-items: center;
+
+}
+
+.bio-txt{
+	grid-column: 2 / span 2;
+}
+
+.bio-img{
+	grid-column: 4 / span 2;
+	width: 60%;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+/* SKILLS */
+
+.skills{
+	grid-row: 3 / span 1;
+	grid-column: 2 / span 1;
+	background-color: #F8C671;
+	color: white;
+}
+
+.skills-title{
+	margin-left: 8%;
+}
+
+.skills-txt{
+	margin-left: 14%;
+}
+
+
+/*PORTFOLIO */
+
+.portfolio {
+	grid-row: 3 / span 1;
+	grid-column: 3 / span 3;
+	background-color: #EE6F66;
+	color: white;
+}
+
+.portfolio-title{
+	margin-left: 10%;
+}
+
+.portfolio-grid{
+	display:grid;
+	grid-template-columns: 10% 35% 10% 35% 10%;
+}
+
+.portfolio img{
+	width:90%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.portfolio p{
+	width: 90%;
+	margin-left: 5%;
+}
+.portfolio-huarpes{
+	grid-column: 2 / span 1;
+	border: 4px solid white;
+
+}
+
+.portfolio-batalla{
+	grid-column: 4 / span 1;
+	border: 4px solid white;
+}
+
+/* FOOTER */
+footer{
+	margin-top: 3%;
+	text-align: center;
+	font-size: 0.7vw;
+}
