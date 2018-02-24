@@ -2,9 +2,19 @@ p, h1, h4 {
 	font-family: 'Press Start 2P', cursive; 
 }
 
-#cursor{
-	color:'blue';
+h1{
+	font-size: 2.3vw;
 }
+
+p{
+	font-size: 1.1vw;
+	word-spacing: -0.5vw;
+}
+
+h4{
+	font-size: 1.2vw;
+}
+
 
 section{
 	padding-top: 5%;
@@ -63,18 +73,19 @@ section{
 
 .bio-grid{
 	display: grid;
-	grid-template-columns: 8% 23% 23% 29% 23% 4%;;
+	grid-template-columns: 4% 58% 34% 4%;;
 	align-items: center;
 	justify-items: center;
 
 }
 
 .bio-txt{
-	grid-column: 2 / span 2;
+	grid-column: 2 / span 1;
+	line-height: 150%;
 }
 
 .bio-img{
-	grid-column: 4 / span 2;
+	grid-column: 3 / span 1;
 	width: 60%;
 	border-radius: 50%;
 	border: 5px solid white;
@@ -89,7 +100,7 @@ section{
 }
 
 .skills-title{
-	margin-left: 8%;
+	margin-left: 30%;
 }
 
 .skills-txt{
@@ -139,6 +150,131 @@ section{
 /* FOOTER */
 footer{
 	margin-top: 3%;
+}
+
+footer p{
 	text-align: center;
+}
+
+footer p{
 	font-size: 0.7vw;
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 4.4vw;
+	}
+
+	p{
+		font-size: 3.1vw;
+		word-spacing: -0.5vw;
+	}
+
+	h4{
+		font-size: 3.2vw;
+	}
+	.grid{
+		display: grid;
+		grid-template-rows: 1fr 3fr 6fr 2fr;
+		grid-gap: 2%;
+	}
+	
+	/*HEADER SMALL */
+
+	.header{
+		width: 100%;
+		grid-column: 2 / span 4;
+		grid-row: 1 / span 1;
+	}
+
+	.header-grid{
+		
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		align-items: start;
+	}
+
+	.header-logo{
+		width: 100%;
+		grid-row: 1 / span 1;
+		grid-column: 1 / span 3;
+	}
+
+	.icons{
+		grid-row: 2 / span 1;
+		grid-column: 1 / span 1;
+		text-align: left;
+	}
+
+	.icons img{
+		margin-left: 0%;
+		margin-right: 3%;
+		width:10%;
+	}
+
+	/* BIO SMALL */
+
+	.bio-txt{
+		grid-column: 2 / span 2;
+		line-height: 150%;
+	}
+
+	.bio-img{
+		display: none;
+	}
+
+	/* PORTFOLIO SMALL */
+
+	.portfolio {
+		grid-row: 3 / span 1;
+		grid-column: 2 / span 4;
+	}
+
+	.portfolio-grid{
+		display:grid;
+		grid-template-columns: 10% 35% 10% 35% 10%;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	.portfolio-huarpes{
+		grid-column: 2 / span 3;
+		grid-row: 1 / span 1;
+
+	}
+
+	.portfolio-batalla{
+		grid-column: 2 / span 3;
+		grid-row: 2 / span 1;
+		margin-top: 5%;
+	}
+
+	/* SKILLS SMALL */
+
+	.skills{
+		grid-row: 4 / span 1;
+		grid-column: 2 / span 4;	}
+
+	.skills-title{
+		margin-left: 10%;
+	}
+
+	.skills-txt{
+		margin-left: 14%;
+	}
+
+	/* FOOTER */
+
+	footer{
+		margin-top: 8%;
+	}
+
+	footer p{
+		font-size: 2vw;
+	}	
+
 }
