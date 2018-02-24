@@ -185,7 +185,7 @@ a:link, a:visited {
 	}
 	
 	section{
-		margin-bottom: 2%;
+		margin-bottom: 4%;
 	}
 	/*HEADER SMALL */
 
@@ -203,7 +203,7 @@ a:link, a:visited {
 	}
 
 	.header-logo{
-		width: 100%;
+		width: 98%;
 		grid-row: 1 / span 1;
 		grid-column: 1 / span 3;
 	}
@@ -217,7 +217,7 @@ a:link, a:visited {
 	.icons img{
 		margin-left: 0%;
 		margin-right: 3%;
-		width:10%;
+		width:18%;
 	}
 
 	/* BIO SMALL */
@@ -267,7 +267,7 @@ a:link, a:visited {
 	}
 
 	.skills-txt{
-		margin-left: 14%;
+		margin-left: 10%;
 	}
 
 	/* FOOTER */
