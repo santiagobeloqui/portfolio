@@ -1,5 +1,6 @@
 p, h1, h4 {
 	font-family: 'Press Start 2P', cursive; 
+
 }
 
 h1{
@@ -9,6 +10,7 @@ h1{
 p{
 	font-size: 1.1vw;
 	word-spacing: -0.5vw;
+	text-align: center;
 }
 
 h4{
@@ -100,12 +102,9 @@ section{
 }
 
 .skills-title{
-	margin-left: 30%;
+	text-align:center;
 }
 
-.skills-txt{
-	margin-left: 14%;
-}
 
 
 /*PORTFOLIO */
@@ -207,18 +206,19 @@ a:link, a:visited {
 		width: 100%;
 		grid-row: 1 / span 1;
 		grid-column: 1 / span 3;
+		text-align: center;
 	}
 
 	.icons{
 		grid-row: 2 / span 1;
-		grid-column: 1 / span 1;
-		text-align: left;
+		grid-column: 1 / span 3;
+		text-align: center;
 	}
 
 	.icons img{
 		margin-left: 0%;
 		margin-right: 3%;
-		width:15%;
+		width:8%;
 	}
 
 	/* BIO SMALL */
@@ -261,14 +261,6 @@ a:link, a:visited {
 	.skills{
 		grid-row: 4 / span 1;
 		grid-column: 2 / span 4;	}
-
-	.skills-title{
-		margin-left: 10%;
-	}
-
-	.skills-txt{
-		margin-left: 10%;
-	}
 
 	/* FOOTER */
 
