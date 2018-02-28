@@ -21,14 +21,9 @@ h4{
 section{
 	padding-top: 5%;
 	padding-bottom: 5%;
-	margin-bottom: 2%;
 }
 
-@-moz-document url-prefix() {
-    section{
-    	margin-bottom: 6%;
-    }
-}
+
 
 
 /* GRID */
@@ -36,7 +31,7 @@ section{
 .grid{
 	display: grid;
 	grid-template-columns: 5% 20% 20% 20% 20% 5%;
-	grid-template-rows: 1fr 5fr 5fr;
+	grid-template-rows: 1fr 5fr 0.3fr 5fr;
 	grid-column-gap: 2%;
 }
 
@@ -104,25 +99,36 @@ section{
 /* SKILLS */
 
 .skills{
-	grid-row: 3 / span 1;
+	grid-row: 4 / span 1;
 	grid-column: 2 / span 1;
 	background-color: #F8C671;
 	color: white;
+
 }
 
 .skills-title{
 	text-align:center;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.skills-title{
+		margin-top: 20%;
+	}
+}
+
+.skills-txt{
+	margin-top: 15%;
+}
 
 
 /*PORTFOLIO */
 
 .portfolio {
-	grid-row: 3 / span 1;
+	grid-row: 4 / span 1;
 	grid-column: 3 / span 3;
 	background-color: #EE6F66;
 	color: white;
+
 }
 
 .portfolio-title{
@@ -158,15 +164,13 @@ footer{
 }
 
 footer p{
+	color: rgb(70, 70, 70);
 	text-align: center;
-}
-
-footer p{
 	font-size: 0.7vw;
 }
 
 a:link, a:visited {
-	color: black;
+	color: rgb(70, 70, 70);
 	text-decoration: none;
 }
 
