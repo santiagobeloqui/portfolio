@@ -103,21 +103,25 @@ section{
 	grid-column: 2 / span 1;
 	background-color: #F8C671;
 	color: white;
-
 }
 
 .skills-title{
 	text-align:center;
+
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	.skills-title{
 		margin-top: 20%;
+
 	}
 }
 
 .skills-txt{
+	width: 90%;
 	margin-top: 15%;
+	margin-left: 5%;
+
 }
 
 
