@@ -110,6 +110,8 @@ section{
 
 }
 
+
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	.skills-title{
 		margin-top: 20%;
@@ -119,7 +121,7 @@ section{
 
 .skills-txt{
 	width: 90%;
-	margin-top: 15%;
+	margin-top: 40%;
 	margin-left: 5%;
 
 }
@@ -175,7 +177,7 @@ footer p{
 }
 
 a:link, a:visited {
-	color: rgb(70, 70, 70);
+	color: inherit;
 	text-decoration: none;
 }
 
@@ -273,12 +275,20 @@ a:link, a:visited {
 		margin-top: 5%;
 	}
 
+	
 	/* SKILLS SMALL */
 
 	.skills{
 		grid-row: 4 / span 1;
 		grid-column: 2 / span 4;	}
 
+	.skills-txt{
+		margin-top: 15% !important;
+	}
+
+	.skills-title{
+		margin-top: 5% !important;
+	}
 	/* FOOTER */
 
 	footer{
