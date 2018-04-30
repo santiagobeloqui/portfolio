@@ -4,63 +4,88 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Santiago Beloqui</title>
-	 <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
-	 <link href="https://fonts.googleapis.com/css?family=Arvo:700" rel="stylesheet">   
+	 <link href="https://fonts.googleapis.com/css?family=Lato:200" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">               
 	 <link rel="stylesheet" href="css/index.css">
 </head>
-<body>		
-	<div class="grid">
+<body>
+	
 		<header class='header header-grid'>
-			<h1 class='header-logo'>Santiago Beloqui<span id='cursor'>|</span></h1>
-			<div class="icons">
-				<a href="https://www.linkedin.com/in/santiago-beloqui-212554143/" target='_blank'><img src="img/icon-linkedin.png" alt=""></a>
-				<a href="https://github.com/santiagobeloqui" target='_blank'><img src="img/icon-github.png" alt=""></a>
-				<a href="mailto:beloquisantiago@gmail.com" target='_blank'><img src="img/icon-gmail.png" alt=""></a>
-			</div>
-		</header>
+				<h1>SB</h1>
+				<div class="icons">
+					<a href="https://www.linkedin.com/in/santiago-beloqui-212554143/" target='_blank'><img src="img/icon-linkedin.png" alt=""></a>
+					<a href="https://github.com/santiagobeloqui" target='_blank'><img src="img/icon-github.png" alt=""></a>
+					<a href="mailto:beloquisantiago@gmail.com" target='_blank'><img src="img/icon-gmail.png" alt=""></a>
+				</div>
+			</header>		
+	<div class="grid">
 		
 		<section class='bio'>
 			<div class = "bio-grid">
-				<p class = 'bio-txt'>Soy de la ciudad de Mendoza, Argentina. Licenciado en Psicología y estudiante de Programación. </br> Entusiasta del desarrollo web, me motiva aprender nuevas herramientas.</p>
+				<div class="bio-txt">
+					<h1 id="bio-title">Santiago Beloqui</h1>
+					<p id="bio-text">Responsive web development<span id = "cursor">|</span></span></p>
+				</div>				
 			</div>
 			
 		</section>
 		<section class='portfolio'>
-			<h4 class='portfolio-title'>PORTFOLIO</h4>
+			<h2 class='portfolio-title'>PORTFOLIO</h4>
 			<div class='portfolio-grid'>
-				<div class="portfolio-huarpes">
-					<a href="https://santiagobeloqui.github.io/huarpes/" target = "_blank"><img src="img/portfolio-huarpes.jpg" alt="Página Huarpes"/></a>
-					<div class="portfolio-txt">
-						<p>HUARPES RUGBY CLUB</p>
+					<a href="https://santiagobeloqui.github.io/huarpes/" target = "_blank" class="huarpes-img"><img src="img/portfolio-huarpes.jpg" alt="Página Huarpes"/></a>
+					<div class="portfolio-txt huarpes-txt">
+						<p class="individual-title">Huarpes Rugby Club</p>
 						<p >Web estática para el club de rugby inclusivo Huarpes</p>
-					</div>					
-				</div>
-				<div class="portfolio-batalla">
-					<a href="https://elastic-neumann-49a515.netlify.com/" target="_blank"><img src="img/portfolio-batalla.jpg" alt="Batalla Naval"/></a>
-					<div class="portfolio-txt">
-						<p>BATALLA NAVAL</p>
+					</div>
+					<a href="https://santiagobeloqui.github.io/random-quote-machine/" target = "_blank" class="quote-img"><img src="img/portfolio-quote.jpg" alt="Random Quote Machine"/></a>
+					<div class="portfolio-txt quote-txt">
+						<p class="individual-title">Random Quote Machine</p>
+						<p >Generador de citas de autor aleatorias con opción de tuitearlas</p>
+					</div>
+					<a href="https://santiagobeloqui.github.io/my-local-weather/" target = "_blank" class="weather-img"><img src="img/portfolio-weather.jpg" alt="My Local Weather"/></a>
+					<div class="portfolio-txt weather-txt">
+						<p class="individual-title">My Local Weather</p>
+						<p>Permite mostrar la ubicación actual y el tiempo en ese momento, utilizando APIs de Google y Freecodecamp</p>
+					</div>
+					<a href="https://elastic-neumann-49a515.netlify.com/" target="_blank" class="batalla-img"><img src="img/portfolio-batalla.jpg" alt="Batalla Naval"/></a>
+					<div class="portfolio-txt batalla-txt">
+						<p class="individual-title">Batalla Naval</p>
 						<p >Pequeño juego realizado como proyecto para aprender React</p>
-					</div>					
-				</div>
+					</div>
+					
 				
 				
 			</div>
 		</section>
 		<section class='skills borde skills-grid'>
-			<h4 class='skills-title'>SKILLS</h4>
-			<p class = "skill-1">Javascript</p>
-			<p class = "skill-2">HTML5</p>
-			<p class = "skill-3">CSS3</p>
-			<p class = "skill-4">Responsive Design</p>
-			<p class = "skill-5">Java</p>
-			<p class = "skill-6">POO</p>
-			
+			<h2 class='skills-title'>SKILLS</h4>
+			<div class = "skill-1">
+				<img src="img/java.png"/>
+				<p>Javascript</p>
+
+			</div>
+			<div class = "skill-2">
+				<img src="img/html.png"/>
+				<p>HTML5</p>
+			</div>
+			<div class = "skill-3">
+				<img src="img/css.png"/>
+				<p>CSS3</p>
+			</div>			
+			<div class = "skill-4">
+				<img src="img/optimization.png"/>
+				<p>Responsive Design</p>
+			</div>
+			<div class = "skill-5">
+				<img src="img/flow.png"/>
+				<p>OOP</p>
+			</div>			
 		</section>
 		
 	</div>
 	<footer>
 		<p>Contacto: beloquisantiago@gmail.com</p>
-		<p>Icons made by <strong><a href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a></strong> and <strong><a href="https://www.flaticon.com/authors/freepik">Freepik</a></strong> from Flaticon</p>
+		<p>Icons made by <strong><a href="https://www.flaticon.com/authors/pixel-perfect" target="_blank">Pixel perfect</a></strong>, <strong><a href="https://www.flaticon.com/authors/smashicons" target="_blank">Smashicons</a></strong> and <strong><a href="https://www.flaticon.com/authors/freepik" target="_blank">Freepik</a></strong> from Flaticon</p>
 	</footer>
 	
 
