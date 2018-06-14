@@ -1,4 +1,4 @@
-cursor = document.getElementById('cursor');
+let cursor = document.getElementById('cursor');
 
 setInterval(()=>{
 	if (cursor.style.visibility == 'hidden'){
