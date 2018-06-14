@@ -220,8 +220,8 @@ h2{
 
 .skills{
 	grid-column: 1 / span 3;
-	padding-top: 30%;
-	padding-bottom: 30%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	background-color: rgb(87,188,144);
 	color: white;
 }
