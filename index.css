@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 0 0.3vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+}
+
+body{
+    height: 100vh;
+}
+
+.home-title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    color: #77C6FF;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+}
+
+
+
+.skill{
+    text-align: center;
+}
+
+.languages{
+    height: 10vh;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10%;
+}
+
+.main{
+    height: 80vh;
+    width: 45%;
+    padding: 0 27.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-animation-hide{
+    animation-name: main-hide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes main-hide{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.main-animation-show{
+    animation-name: main-show;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;    
+}
+
+@keyframes main-show{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+nav{
+    text-align: center;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*ME SECTION*/
+.me-title{
+    margin-bottom: 5%;
+}
+
+.me-text{
+    margin-bottom: 1%;
+}
+
+/*SKILLS SECTION*/
+.skills-title{
+    margin-bottom: 15%;
+}
+
+/*PORTFOLIO SECTION*/
+
+.portfolio-element{
+    margin-bottom: 2%;
+}
+
+a, a:visited{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+}
+
+.portfolio-title{
+    margin-bottom: 5%;
+}
+
+
+/*CONTACT SECTION*/
+
+.contact-link{
+    width: 70%;
+    margin: 0 2%;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.social-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.contact-img{
+    width: 10%;
+}
+
+.contact-title{
+    margin-bottom: 10%;
+}
+
+@media (max-width: 768px){
+    h2{
+        font-size: 7vw;
+    }
+    p, a,li{
+        font-size: 3vw;
+    }
+    .home-title{
+        font-size: 7vw;
+    }
+    .main{
+        width: 90%;
+        padding: 0 5%;
+    }
+}
+
+@media (max-width: 480px){
+    h2{
+        font-size: 9vw;
+    }
+    p, a,li{
+        font-size: 4.5vw;
+    }
+    .home-title{
+        font-size: 9vw;
+    }
+
+}
