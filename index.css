@@ -183,7 +183,7 @@ a, a:visited{
 
 @media (max-width: 480px){
     .content{
-        height: 70vh;
+        height: 80vh;
     }
     h2{
         font-size: 9vw;
