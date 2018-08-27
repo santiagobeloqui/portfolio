@@ -147,7 +147,7 @@ function meSection(){
         resumeText = document.createTextNode(" CV");
     }
     resumeLink.appendChild(resumeText);
-    resumeLink.href = 'Santiago Beloqui- Curriculum Vitae.pdf';
+    resumeLink.href = 'Santiago Beloqui - CV.pdf';
     resumeLink.target = '_blank';
     // p.appendChild(resumeLink);
     content.appendChild(title);
