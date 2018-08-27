@@ -135,7 +135,7 @@ function meSection(){
     title.className = "me-title";  
     title.appendChild(titleText);
     let p = document.createElement("P");
-    let pText = document.createTextNode("I am a web developer from Mendoza, Argentina. Also graduated in Psychology, finishing that career I began to experiment with programming and discovered my passion for development. My curiosity and desire to learn allowed me to know both front-end and back-end technologies. Let's get to know each other and work together!");
+    let pText = document.createTextNode("I am a web developer from Mendoza, Argentina, who also majored in Psychology. While finishing that career I began to experiment with programming and discovered my passion for development. My curiosity and desire to learn allowed me to know both front-end and back-end technologies. Let's get to know each other and work together!");
     if (language == "Español"){
         pText = document.createTextNode("Soy un desarrollador web de Mendoza, Argentina. También Licenciado en Psicología, terminando esa carrera comencé a experimentar con la programación y descubrí mi pasión por el desarrollo. Mi curiosidad y deseo de aprendizaje me permitió conocer tecnologías tanto del front-end como del back-end. ¡Conozcámonos y trabajemos juntos!");
     }
@@ -160,9 +160,9 @@ function meSection(){
     }
 }
 
-let portfolioProjects = ["Huarpes Rugby Club.", "URL SHortener.", "Random Quote Machine.", "Local Weather."];
-let portfolioEnglish = [" Static website for an inclusive rugby club called Huarpes. Made with HTML5, CSS3 and JavaScript. ", " You can enter a URL and obtain a shorter one wich you can use to go to the same website. The back-end is made with Express.js and mongoose to access an MongoDb database. ", " Generator of random quotes with the option to tweet them. Made with HTML5, CSS3 and JavaScript. ", " It shows the current location and weather, fetching data from Google and Freecodecamp APIs. Made with HTML5, CSS3 and JavaScript. "];
-let portfolioSpanish = [" Web estática para un club de rugby inclusivo llamado HUarpes. Hecho con HTML5, CSS3 y JavaScript. ", " Permite ingresar una URL y obtener una más corta, la cual se puede usar paara entrar al mismo sitio. El back-end está hecho con Express.js y mongoose para acceder una base de datos MongoDb. ", " Generador de citas de autor aleatorias con la opción de twittearlas. Hecho HTML5, CSS3 con JavaScript. ", " Muestra la localización y clima actuales, extrayendo información de APIs de Google y Freecodecamp. Hecho con HTML5, CSS3 and JavaScript. "];
+let portfolioProjects = ["Huarpes Rugby Club.", "URL Shortener.", "Random Quote Machine.", "Local Weather."];
+let portfolioEnglish = [" Static website for an inclusive rugby club called Huarpes. Made with HTML5, CSS3 and JavaScript. ", " You can enter a URL and obtain a shorter one wich you can use to go to the same website. The back-end is made with Express.js and mongoose to access an MongoDb database. ", " Generator of random quotations with the option to tweet them. Made with HTML5, CSS3 and JavaScript. ", " It shows the current location and weather, fetching data from Google and Freecodecamp APIs. Made with HTML5, CSS3 and JavaScript. "];
+let portfolioSpanish = [" Web estática para un club de rugby inclusivo llamado Huarpes. Hecho con HTML5, CSS3 y JavaScript. ", " Permite ingresar una URL y obtener una más corta, la cual se puede usar paara entrar al mismo sitio. El back-end está hecho con Express.js y mongoose para acceder una base de datos MongoDb. ", " Generador de citas de autor aleatorias con la opción de twittearlas. Hecho HTML5, CSS3 con JavaScript. ", " Muestra la localización y clima actuales, extrayendo información de APIs de Google y Freecodecamp. Hecho con HTML5, CSS3 and JavaScript. "];
 let portfolioLinks = ["https://santiagobeloqui.github.io/huarpes/","https://tranquil-shelf-24200.herokuapp.com/","https://santiagobeloqui.github.io/random-quote-machine/","https://santiagobeloqui.github.io/my-local-weather/"];
 
 function portfolioSection(){
