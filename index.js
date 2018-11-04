@@ -66,17 +66,7 @@ espanolLink.addEventListener("click", ()=>{
 navStyles("home");
 
 
-// meLink.addEventListener("click", ()=>{
-//     main.classList.add('main-animation-hide');
-//     languages.classList.add('main-animation-hide');
-//     setTimeout(()=>{
-//         while(content.lastChild){
-//             content.removeChild(content.lastChild);
-//         }
-//         meSection();
-//         main.classList.add('main-animation-show');
-//     }, 1000);
-// });
+
 
 addLink(meLink, meSection);
 addLink(homeLink, homeSection);
@@ -149,7 +139,6 @@ function meSection(){
     resumeLink.appendChild(resumeText);
     resumeLink.href = 'Santiago Beloqui - CV.pdf';
     resumeLink.target = '_blank';
-    // p.appendChild(resumeLink);
     content.appendChild(title);
     content.appendChild(p);
     content.appendChild(resumeLink);
@@ -160,10 +149,10 @@ function meSection(){
     }
 }
 
-let portfolioProjects = ["Huarpes Rugby Club.", "URL Shortener.", "Random Quote Machine.", "Local Weather."];
-let portfolioEnglish = [" Static website for an inclusive rugby club called Huarpes. Made with HTML5, CSS3 and JavaScript. ", " You can enter a URL and obtain a shorter one wich you can use to go to the same website. The back-end is made with Express.js and mongoose to access an MongoDb database. ", " Generator of random quotations with the option to tweet them. Made with HTML5, CSS3 and JavaScript. ", " It shows the current location and weather, fetching data from Google and Freecodecamp APIs. Made with HTML5, CSS3 and JavaScript. "];
-let portfolioSpanish = [" Web estática para un club de rugby inclusivo llamado Huarpes. Hecho con HTML5, CSS3 y JavaScript. ", " Permite ingresar una URL y obtener una más corta, la cual se puede usar paara entrar al mismo sitio. El back-end está hecho con Express.js y mongoose para acceder una base de datos MongoDb. ", " Generador de citas de autor aleatorias con la opción de twittearlas. Hecho HTML5, CSS3 con JavaScript. ", " Muestra la localización y clima actuales, extrayendo información de APIs de Google y Freecodecamp. Hecho con HTML5, CSS3 and JavaScript. "];
-let portfolioLinks = ["https://santiagobeloqui.github.io/huarpes/","https://tranquil-shelf-24200.herokuapp.com/","https://santiagobeloqui.github.io/random-quote-machine/","https://santiagobeloqui.github.io/my-local-weather/"];
+let portfolioProjects = ["Drum Machine.", "Huarpes Rugby Club.", "URL SHortener.", "Random Quote Machine.", "Local Weather."];
+let portfolioEnglish = ["A simple drum machine made with React. "," Static website for an inclusive rugby club called Huarpes. Made with HTML5, CSS3 and JavaScript. ", " You can enter a URL and obtain a shorter one wich you can use to go to the same website. The back-end is made with Express.js and mongoose to access an MongoDb database. ", " Generator of random quotes with the option to tweet them. Made with HTML5, CSS3 and JavaScript. ", " It shows the current location and weather, fetching data from Google and Freecodecamp APIs. Made with HTML5, CSS3 and JavaScript. "];
+let portfolioSpanish = ["Una caja de ritmos simple hecha con React. "," Web estática para un club de rugby inclusivo llamado Huarpes. Hecho con HTML5, CSS3 y JavaScript. ", " Permite ingresar una URL y obtener una más corta, la cual se puede usar paara entrar al mismo sitio. El back-end está hecho con Express.js y mongoose para acceder una base de datos MongoDb. ", " Generador de citas de autor aleatorias con la opción de twittearlas. Hecho HTML5, CSS3 con JavaScript. ", " Muestra la localización y clima actuales, extrayendo información de APIs de Google y Freecodecamp. Hecho con HTML5, CSS3 and JavaScript. "];
+let portfolioLinks = ["https://santiagobeloqui.github.io/drum-machine/","https://santiagobeloqui.github.io/huarpes/","https://tranquil-shelf-24200.herokuapp.com/","https://santiagobeloqui.github.io/random-quote-machine/","https://santiagobeloqui.github.io/my-local-weather/"];
 
 function portfolioSection(){
     let title = document.createElement("H2");
@@ -228,11 +217,6 @@ function skillsSection(){
         }
         content.appendChild(p);
     }
-    // let p = document.createElement("P");
-    // let pText = document.createTextNode("HTML5 + CSS3 + Responsive Design + Javascript + Express.js + MongoDB");
-    // p.appendChild(pText);
-    // content.appendChild(p);
-    
     navStyles("skills");    
 }
 
