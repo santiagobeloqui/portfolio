@@ -149,7 +149,7 @@ function meSection(){
     }
 }
 
-let portfolioProjects = ["Drum Machine.", "Huarpes Rugby Club.", "URL SHortener.", "Random Quote Machine.", "Local Weather."];
+let portfolioProjects = ["Drum Machine. ", "Huarpes Rugby Club.", "URL SHortener.", "Random Quote Machine.", "Local Weather."];
 let portfolioEnglish = ["A simple drum machine made with React. "," Static website for an inclusive rugby club called Huarpes. Made with HTML5, CSS3 and JavaScript. ", " You can enter a URL and obtain a shorter one wich you can use to go to the same website. The back-end is made with Express.js and mongoose to access an MongoDb database. ", " Generator of random quotes with the option to tweet them. Made with HTML5, CSS3 and JavaScript. ", " It shows the current location and weather, fetching data from Google and Freecodecamp APIs. Made with HTML5, CSS3 and JavaScript. "];
 let portfolioSpanish = ["Una caja de ritmos simple hecha con React. "," Web estática para un club de rugby inclusivo llamado Huarpes. Hecho con HTML5, CSS3 y JavaScript. ", " Permite ingresar una URL y obtener una más corta, la cual se puede usar paara entrar al mismo sitio. El back-end está hecho con Express.js y mongoose para acceder una base de datos MongoDb. ", " Generador de citas de autor aleatorias con la opción de twittearlas. Hecho HTML5, CSS3 con JavaScript. ", " Muestra la localización y clima actuales, extrayendo información de APIs de Google y Freecodecamp. Hecho con HTML5, CSS3 and JavaScript. "];
 let portfolioLinks = ["https://santiagobeloqui.github.io/drum-machine/","https://santiagobeloqui.github.io/huarpes/","https://tranquil-shelf-24200.herokuapp.com/","https://santiagobeloqui.github.io/random-quote-machine/","https://santiagobeloqui.github.io/my-local-weather/"];
